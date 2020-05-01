@@ -14,7 +14,7 @@ public class AppUtils {
     public static String KEY_GOOGLE_MAP = "AIzaSyCRwjuTAzHRMmS7a9nQrwG_XaCZpGzRzjU";
     public static String KEY_WEATHER = "17fdbe391ebf3056d60ae06d4620093f";
 
-    public static String URL_SERVER = "https://a9c70d78.ngrok.io/segmention";
+    public static String URL_SERVER = "http://fb286b88.ngrok.io/segmention";
 
     /*TODO: set URL for get lat & lng location
     * @location: name address

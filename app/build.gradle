@@ -39,7 +39,7 @@ android {
 }
 protobuf {
     protoc {
-        artifact = 'com.google.protobuf:protoc:3.3.1'
+        artifact = 'com.google.protobuf:protoc:3.6.1'
     }
     plugins {
         javalite {
@@ -77,7 +77,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
     // gRPC
     implementation "io.grpc:grpc-okhttp:$grpcVersion"
-    implementation "io.grpc:grpc-protobuf-lite:$grpcVersion"
+//    implementation "io.grpc:grpc-protobuf-lite:$grpcVersion"
     implementation "io.grpc:grpc-stub:$grpcVersion"
     implementation 'javax.annotation:javax.annotation-api:1.2'
     protobuf 'com.google.protobuf:protobuf-java:3.11.4'
