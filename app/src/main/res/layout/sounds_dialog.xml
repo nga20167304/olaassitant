@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/your_dialog_root_element"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/size32sp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#365776"
+    android:padding="@dimen/size16sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size16sp">
+
+        <TextView
+            android:id="@+id/tvRingtone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ringtone"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/size16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvRingtone"
+            android:layout_marginTop="@dimen/size8sp">
+
+            <ImageView
+                android:id="@+id/img_ringtone"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_ringtone" />
+
+            <SeekBar
+                android:id="@+id/ringtone_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size16sp">
+
+        <TextView
+            android:id="@+id/tvMedia"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Media"
+            android:textSize="@dimen/size16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMedia"
+            android:layout_marginTop="@dimen/size8sp">
+
+            <ImageView
+                android:id="@+id/img_media"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_sound_media" />
+
+            <SeekBar
+                android:id="@+id/media_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size16sp">
+
+        <TextView
+            android:id="@+id/tvNotifications"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Notifications"
+            android:textSize="@dimen/size16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNotifications"
+            android:layout_marginTop="@dimen/size8sp">
+
+            <ImageView
+                android:id="@+id/img_notifications"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_alarm" />
+
+            <SeekBar
+                android:id="@+id/notifications_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size16sp">
+
+        <TextView
+            android:id="@+id/tvSystem"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System"
+            android:textSize="@dimen/size16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSystem"
+            android:layout_marginTop="@dimen/size8sp">
+
+            <ImageView
+                android:id="@+id/img_system"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_system" />
+
+            <SeekBar
+                android:id="@+id/system_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/your_dialog_button"
+        android:layout_gravity="right"
+        android:background="#548dd2"
+        android:textColor="#ffffff"
+        android:layout_marginRight="@dimen/size16sp"
+        android:layout_marginBottom="@dimen/size16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size16sp"
+        android:text="OK" />
+</LinearLayout>

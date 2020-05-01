@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text_view_content_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size5sp"
+        android:background="@drawable/rounded_rectangle_orange"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="Messenger ..."
+        android:textColor="#000000"
+        android:textSize="@dimen/size16sp" />
+
+    <TextView
+        android:id="@+id/text_view_time_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rectangle_blue"
+        android:padding="@dimen/size5sp"
+
+        android:text="Th4 04 29, 2017 4: 21 PM"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/size9sp"
+        android:visibility="gone" />
+
+</LinearLayout>

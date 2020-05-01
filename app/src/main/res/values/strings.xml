@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Ola Assistant</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Sir!</string>
+    <string name="slide_1_desc">Chào mừng ngài đến với trợ lý ảo Ola! Hãy xem tôi có thể làm gì...</string>
+
+    <string name="slide_2_title">Mở video Youtube</string>
+    <string name="slide_2_desc">Mở cho tôi video A better day trên youtube</string>
+
+    <string name="slide_3_title">Mở nhạc</string>
+    <string name="slide_3_desc">Mở bài hát Some one like you của Adele</string>
+
+    <string name="slide_4_title">Application</string>
+    <string name="slide_4_desc">Bật cho tôi ứng dụng Facebook hoặc Tắt Bluetooth...</string>
+
+    <string name="slide_5_title">Chỉ đường</string>
+    <string name="slide_5_desc">Chỉ đường cho tôi đến đại học Bách Khoa Hà Nội</string>
+
+    <string name="slide_6_title">Hỏi thời tiết</string>
+    <string name="slide_6_desc">Ngày mai trời có nóng không?</string>
+
+    <string name="slide_7_title">Đặt báo thức</string>
+    <string name="slide_7_desc">Báo thức cho tôi lúc 7:30 sáng mai</string>
+
+    <string name="slide_8_title">Settings</string>
+    <string name="slide_8_desc">Tăng độ sáng màn hình hoặc Giảm âm lượng điện thoại</string>
+
+    <string name="slide_9_title">Nhắc nhở và sự kiện</string>
+    <string name="slide_9_desc">Nhắc tôi học tiếng anh vào 7:30 tối nay hoặc Mai tôi có sự kiện nào không.</string>
+
+    <string name="slide_10_title">Mở website</string>
+    <string name="slide_10_desc">Mở trang web baomoi.com</string>
+
+    <string name="slide_11_title">Gọi điện</string>
+    <string name="slide_11_desc">Gọi điện đến số 0988996989 hoặc kết nối tới cô Thu</string>
+
+
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Thu nhỏ</string>
+</resources>

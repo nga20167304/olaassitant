@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#456c8d</color>
+    <color name="colorPrimaryDark">#FF456C8D</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray424242">#424242</color>
+    <color name="colorBlueA700">#0091EA</color>
+    <color name="colorPurpleA700">#6200EA</color>
+    <color name="colorRed">#D50000</color>
+    <color name="colorGreen700">#64DD17</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="colorGray300">#E0E0E0</color>
+
+    <color name="colorText">#FFFFFF</color>
+    <color name="secondary_text">#212121</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="colorSign">#d67601</color>
+    <color name="colorGoogle">#FF5722</color>
+    <color name="colorGray">#9E9E9E</color>
+    <color name="colorGreen">#76FF03</color>
+    <color name="colorCrow">#6D4C41</color>
+    <color name="Blue">#0D47A1</color>
+    <color name="colorSignout">#2196F3</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#f64ca1</color>
+    <color name="bg_screen5">#d2c020</color>
+    <color name="bg_screen6">#55d918</color>
+    <color name="bg_screen7">#f65a4c</color>
+    <color name="bg_screen8">#08b64a</color>
+    <color name="bg_screen9">#3395ff</color>
+    <color name="bg_screen10">#c873f4</color>
+    <color name="bg_screen11">#060606</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#bf971c5a</color>
+    <color name="dot_dark_screen5">#e59b8d17</color>
+    <color name="dot_dark_screen6">#ea3e9317</color>
+    <color name="dot_dark_screen7">#c9af3c31</color>
+    <color name="dot_dark_screen8">#e4048636</color>
+    <color name="dot_dark_screen9">#a8064d99</color>
+    <color name="dot_dark_screen10">#a4a52fe4</color>
+    <color name="dot_dark_screen11">#282727</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e3f10b7e</color>
+    <color name="dot_light_screen5">#e3fae209</color>
+    <color name="dot_light_screen6">#f14ef401</color>
+    <color name="dot_light_screen7">#f42917</color>
+    <color name="dot_light_screen8">#ed0cef62</color>
+    <color name="dot_light_screen9">#499ffa</color>
+    <color name="dot_light_screen10">#8d2dbf</color>
+    <color name="dot_light_screen11">#6c6a6a</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+        <item>@color/dot_light_screen6</item>
+        <item>@color/dot_light_screen7</item>
+        <item>@color/dot_light_screen8</item>
+        <item>@color/dot_light_screen9</item>
+        <item>@color/dot_light_screen10</item>
+        <item>@color/dot_light_screen11</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+        <item>@color/dot_dark_screen6</item>
+        <item>@color/dot_dark_screen7</item>
+        <item>@color/dot_dark_screen8</item>
+        <item>@color/dot_dark_screen9</item>
+        <item>@color/dot_dark_screen10</item>
+        <item>@color/dot_dark_screen11</item>
+    </array>
+</resources>
